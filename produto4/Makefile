@@ -1,7 +1,6 @@
 # DOCUMENT VARIABLES
 
-NAME= produto4
-CLEAN_FILES+= *.sigla* *symbols* imagens/*~ *.nav *.snm
+NAME= produto4-DanielaFeitosa
 
 # PROJECT VARIABLES
 
