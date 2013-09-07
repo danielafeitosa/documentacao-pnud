@@ -1,23 +1,24 @@
 \documentclass[11pt]{article}
 \renewcommand{\rmdefault}{ptm}
 \usepackage[scaled=0.92]{helvet}
-\usepackage{courier}
+\usepackage{courier,xcolor,listings,parskip,graphicx,fancyvrb,fancyhdr,lastpage}
 \normalfont
-\usepackage{xcolor}
-\usepackage{listings}
 \usepackage[T1]{fontenc}
-\usepackage{parskip}
 \setlength{\parskip}{7pt}
 \usepackage[toc,page]{appendix}
-\usepackage[hmargin=2.5cm,vmargin=3cm,bindingoffset=0.5cm]{geometry}
+\usepackage[hmargin=2.5cm,vmargin=2cm]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[brazil]{babel}
-\usepackage{graphicx}
-\usepackage{fancyvrb}
-\usepackage{fancyhdr}
+\usepackage{float}
 \pagestyle{fancy}
-\usepackage{lastpage}
+\setlength{\headheight}{120pt}
+\setlength{\textheight}{550pt}
 \lhead{}
+\rhead{}
+\chead{\includegraphics{image002.jpg}\\
+        \large \textbf{PRESIDÊNCIA DA REPÚBLICA}\\
+        \large SECRETARIA-GERAL\\
+        \large Secretaria-Executiva}
 \cfoot{}
 \rfoot{\thepage /\pageref{LastPage}}
 \hyphenation{par-ti-ci-pa-ção}
@@ -49,9 +50,10 @@ PNUD}} \\[2cm]
    {\large {\ProductNumber \\
      \ProductDescription}}\\[5cm]
 
-   \begin{minipage}{\textwidth}
-    \MyName\\
-    \texttt{\MyEmail}\\[2cm]
+   \begin{minipage}{1\textwidth}
+    \MyName
+    \newline
+    \texttt{\MyEmail}
   \end{minipage}
   \vfill
 
@@ -211,7 +213,7 @@ Figura~\ref{fig:labels-model}.
 
 \begin{figure}[h]
 \center
-\includegraphics[scale=0.6]{labels-model.png}
+\includegraphics[scale=0.5]{labels-model.png}
 \caption{Modelagem das classes para definir uma etiqueta a um comentário}
 \label{fig:labels-model}
 \end{figure}
@@ -231,7 +233,7 @@ listadas.
 
 \begin{figure}[h]
 \center
-\includegraphics[scale=0.9]{plugin-label-admin.png}
+\includegraphics[scale=0.5]{plugin-label-admin.png}
 \caption{Tela de gestão das Etiquetas}
 \label{fig:plugin-label-admin}
 \end{figure}
@@ -242,7 +244,7 @@ do ambiente poderá definir os atributos da etiqueta.
 
 \begin{figure}[h]
 \center
-\includegraphics[scale=0.8]{new-label-page.png}
+\includegraphics[scale=0.5]{new-label-page.png}
 \caption{Criação de etiquetas}
 \label{fig:new-label-page}
 \end{figure}
@@ -265,7 +267,7 @@ auditoria posterior.
 
 \begin{figure}[h]
 \center
-\includegraphics[scale=0.8]{comment-add.png}
+\includegraphics[scale=0.5]{comment-add.png}
 \caption{Escolha de etiquetas}
 \label{fig:comment-add}
 \end{figure}
@@ -329,7 +331,7 @@ Figura~\ref{fig:status-model}.
 
 \begin{figure}[h]
 \center
-\includegraphics[scale=0.6]{status-model.png}
+\includegraphics[scale=0.5]{status-model.png}
 \caption{Modelagem das classes para definir um status a um comentário}
 \label{fig:status-model}
 \end{figure}
@@ -350,14 +352,14 @@ listados.
 
 \begin{figure}[h]
 \center
-\includegraphics[scale=0.9]{plugin-status-admin.png}
+\includegraphics[scale=0.5]{plugin-status-admin.png}
 \caption{Tela de gestão dos Status}
 \label{fig:plugin-status-admin}
 \end{figure}
 
 \begin{figure}[h]
 \center
-\includegraphics[scale=0.7]{new-status-page.png}
+\includegraphics[scale=0.5]{new-status-page.png}
 \caption{Criação de status}
 \label{fig:new-status-page}
 \end{figure}
@@ -520,9 +522,13 @@ O incentivo à participação nas consultas deve ser feito através de
 mobilizações na rede e fora da rede. Essas mobilizações deverão
 incentivar a sociedade a registrar suas ideias no Portal de Consulta
 Pública, para que assim ela se torne uma das ferramentas de
-sistematização das contribuições da sociedade.\\[1cm]
+sistematização das contribuições da sociedade.
 
-Sem mais nada a acrescentar, coloco-me à disposição.\\[1cm]
+\vspace{1cm}
+
+Sem mais nada a acrescentar, coloco-me à disposição.
+
+\vspace{1cm}
 
 \begin{minipage}{\textwidth}
   Brasília, \DiaEntrega \ de \MesEntrega\\[1cm]
