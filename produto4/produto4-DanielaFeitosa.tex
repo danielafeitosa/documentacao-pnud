@@ -1,7 +1,8 @@
 \documentclass[11pt]{article}
 \renewcommand{\rmdefault}{ptm}
 \usepackage[scaled=0.92]{helvet}
-\usepackage{courier,xcolor,listings,parskip,graphicx,fancyvrb,fancyhdr,lastpage}
+\usepackage{courier,xcolor,colortbl,listings,parskip,graphicx,fancyvrb,fancyhdr,lastpage}
+\usepackage{float,framed}
 \normalfont
 \usepackage[T1]{fontenc}
 \setlength{\parskip}{7pt}
@@ -9,13 +10,14 @@
 \usepackage[hmargin=2.5cm,vmargin=2cm]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[brazil]{babel}
-\usepackage{float}
 \pagestyle{fancy}
 \setlength{\headheight}{120pt}
+\setlength{\headsep}{30pt}
 \setlength{\textheight}{550pt}
+\renewcommand{\headrulewidth}{0pt}
 \lhead{}
 \rhead{}
-\chead{\includegraphics{image002.jpg}\\
+\chead{\includegraphics{brasao.jpg}\\
         \large \textbf{PRESIDÊNCIA DA REPÚBLICA}\\
         \large SECRETARIA-GERAL\\
         \large Secretaria-Executiva}
@@ -26,7 +28,11 @@
 
 \newcommand{\MyName}{Daniela Soares Feitosa}
 \newcommand{\MyEmail}{daniela@colivre.coop.br}
-\newcommand{\ProductNumber}{Produto 4}
+\newcommand{\ContractNumber}{2013/000100}
+\newcommand{\ProjectCode}{Projeto PNUD BRA/12/018}
+\newcommand{\NomeSecretaria}{Secretaria Geral da Presidência da República}
+\newcommand{\SiglaSecretaria}{SG/PR}
+\newcommand{\ProductNumber}{04}
 \newcommand{\ProductDescription}{Documento com proposta para
 desenvolvimento do código do aplicativo de consulta pública, do código
 de integração dele com o portal e do painel de controle e administração,
@@ -39,16 +45,23 @@ contendo exemplos e códigos.}
 \definecolor{light-gray}{gray}{0.95}
 \lstdefinestyle{codeFrame}{backgroundcolor=\color{light-gray},frame=lines}
 
+\input{aprovacao.tex}
+\clearpage
+\input{identificacao.tex}
+
 \begin{titlepage}
   \begin{center}
-   {\Large \textbf{Secretaria-Geral da Presidência da República - SG/PR}\\
+   {\Large \textbf{Secretaria-Geral da Presidência da República - SG/PR}
+    \newline
     \Large \textbf{Programa das Nações Unidas para o Desenvolvimento -
-PNUD}} \\[2cm]
+PNUD}}
 
-   {\large \textbf{Projeto BRA/12/018}}\\[2cm]
-
+   \vspace{2cm}
+   {\large \textbf{Projeto BRA/12/018}}
+   \vspace{2cm}
    {\large {\ProductNumber \\
-     \ProductDescription}}\\[5cm]
+     \ProductDescription}}
+   \vspace{5cm}
 
    \begin{minipage}{1\textwidth}
     \MyName
@@ -531,7 +544,7 @@ Sem mais nada a acrescentar, coloco-me à disposição.
 \vspace{1cm}
 
 \begin{minipage}{\textwidth}
-  Brasília, \DiaEntrega \ de \MesEntrega\\[1cm]
+  Brasília/DF, \DiaEntrega \ de \MesEntrega\\[1cm]
   \textbf{\MyName}\\
   \small Consultora do PNUD
 \end{minipage}
