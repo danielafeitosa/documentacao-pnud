@@ -39,15 +39,15 @@ Documento com proposta para desenvolvimento do código do aplicativo de
 consulta pública, do código de integração dele com o portal e do painel
 de controle e administração, contendo exemplos e códigos.
 
-- Produto: 5
+- Produto 5:
 Documento com proposta para desenvolvimento do código do tema das
 comunidades contendo exemplos e códigos.
 
-- Produto: 6
+- Produto 6:
 Documento com proposta de código para, pelo menos, 2 aplicativos de
 agregação de conteúdos das redes contendo exemplos e códigos.
 
-- Produto: 7
+- Produto 7:
 Documento com proposta para desenvolvimento do código de pelo menos mais
 2 aplicativos priorizados nas reuniões do projeto contendo exemplos e códigos.
 
