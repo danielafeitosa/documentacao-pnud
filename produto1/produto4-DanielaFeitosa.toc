@@ -1,0 +1,29 @@
+\select@language {brazil}
+\contentsline {section}{\numberline {1}Apresenta\IeC {\c c}\IeC {\~a}o}{6}
+\contentsline {section}{\numberline {2}Plugin de Classifica\IeC {\c c}\IeC {\~a}o de Coment\IeC {\'a}rios}{7}
+\contentsline {section}{\numberline {3}Etiquetas}{8}
+\contentsline {subsection}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~a}o}{8}
+\contentsline {subsection}{\numberline {3.2}Administra\IeC {\c c}\IeC {\~a}o}{8}
+\contentsline {subsection}{\numberline {3.3}Utiliza\IeC {\c c}\IeC {\~a}o}{9}
+\contentsline {section}{\numberline {4}Status}{10}
+\contentsline {subsection}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o}{11}
+\contentsline {subsection}{\numberline {4.2}Administra\IeC {\c c}\IeC {\~a}o}{12}
+\contentsline {subsection}{\numberline {4.3}Utiliza\IeC {\c c}\IeC {\~a}o}{13}
+\contentsline {section}{\numberline {5}Apoio}{13}
+\contentsline {subsection}{\numberline {5.1}Defini\IeC {\c c}\IeC {\~a}o}{14}
+\contentsline {subsection}{\numberline {5.2}Utiliza\IeC {\c c}\IeC {\~a}o}{15}
+\contentsline {section}{\numberline {6}Personaliza\IeC {\c c}\IeC {\~a}o por perfil}{15}
+\contentsline {section}{\numberline {7}Estat\IeC {\'\i }sticas das classifica\IeC {\c c}\IeC {\~o}es}{16}
+\contentsline {subsection}{\numberline {7.1}Label}{16}
+\contentsline {subsection}{\numberline {7.2}Status}{16}
+\contentsline {subsection}{\numberline {7.3}Support}{16}
+\contentsline {section}{\numberline {8}Exporta\IeC {\c c}\IeC {\~a}o dos dados}{16}
+\contentsline {section}{\numberline {9}Considera\IeC {\c c}\IeC {\~o}es finais}{17}
+\contentsline {section}{Appendices}{18}
+\contentsline {section}{\numberline {A}Plugin class}{18}
+\contentsline {section}{\numberline {B}Label class}{20}
+\contentsline {section}{\numberline {C}CommentLabelUser class}{21}
+\contentsline {section}{\numberline {D}Status class}{22}
+\contentsline {section}{\numberline {E}CommentStatusUser class}{23}
+\contentsline {section}{\numberline {F}Support class}{24}
+\contentsline {section}{\numberline {G}Exporta\IeC {\c c}\IeC {\~a}o em CSV}{25}
