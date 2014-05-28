@@ -56,7 +56,7 @@ Documento com proposta para desenvolvimento do código de pelo menos mais
 - 05/09/2013: Produto 4
 - 23/09/2013: Produto 1
 - 31/10/2013: Produto 2
-- 10/02/2014: Produto 7
-- 10/03/2014: Produto 3
-- 07/04/2014: Produto 5
-- 30/06/2014: Produto 6
+- 16/05/2014: Produto 5
+- 30/05/2014: Produto 6
+- 20/06/2014: Produto 7
+- 11/07/2014: Produto 3
