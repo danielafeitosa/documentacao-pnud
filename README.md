@@ -54,9 +54,16 @@ Documento com proposta para desenvolvimento do código de pelo menos mais
 :: Schedule
 
 - 05/09/2013: Produto 4
+  Data de Aprovação: 10/09/2013
 - 23/09/2013: Produto 1
+  Data de Aprovação: 10/10/2013
 - 31/10/2013: Produto 2
+  Data de Aprovação: 04/12/2013
 - 16/05/2014: Produto 5
+  Data de Aprovação: 28/05/2014
 - 30/05/2014: Produto 6
+  Data de Aprovação: 15/07/2014
 - 20/06/2014: Produto 7
+  Data de Aprovação: 14/11/2014
 - 11/07/2014: Produto 3
+  Data de Aprovação: 18/11/2014
